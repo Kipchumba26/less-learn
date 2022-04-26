@@ -1,0 +1,41 @@
+@import './_variables';
+@import './_colors';
+
+
+.row {
+    display: flex;
+}
+.row-reverse {
+    .row;
+    flex-direction: row-reverse;
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column
+}
+.column-reverse {
+    .column;
+    flex-direction: column-reverse;
+}
+
+.ma-center {
+    justify-content: center;
+}
+.ma-around {
+    justify-content: space-around;
+}
+.ma-even {
+    justify-content: space-evenly;
+}
+
+.ca-center {
+    align-items: center;
+}
+.ca-around {
+    align-items: space-around;
+}
+.ca-even {
+    align-items: space-evenly;
+}
