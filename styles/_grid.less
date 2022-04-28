@@ -4,6 +4,11 @@
 
 .row {
     display: flex;
+    flex-wrap: nowrap;
+}
+.row-wrapped {
+    .row;
+    flex-wrap: wrap;
 }
 .row-reverse {
     .row;
@@ -26,6 +31,9 @@
 .ma-around {
     justify-content: space-around;
 }
+.ma-btn {
+    justify-content: space-between;
+}
 .ma-even {
     justify-content: space-evenly;
 }
@@ -35,6 +43,9 @@
 }
 .ca-around {
     align-items: space-around;
+}
+.ca-btn {
+    align-items: space-between;
 }
 .ca-even {
     align-items: space-evenly;
